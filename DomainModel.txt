@@ -1,0 +1,28 @@
+DomänModel
+
+[Vad programmet ska göra]
+Programmet ska hantera inköp, försäljning och marknadsföring av bilar i en sorts Repository.
+Dessa tre syften med programmet ska styras av tre separata funktioner där en funktion har hand om ett syfte.
+Användaren ska kunna lägga in en bil i lagret, ta ut en bil och även se vilka bilar som finns i lagret.
+Användaren ska kunna välja vad hen vill göra genom att trycka på knappar som kallar till dem olika funktionerna. 
+
+[Objekt som ska användas]
+Class Car:
+	Egenskaper:
+		Märke, Model, Registreringsnummer, Hästkrafter, Färg, Sträcka (Hur mycket bilen kört i sitt liv)
+
+Class Repository
+	Egenskaper:
+		Databas
+	Metoder:
+		Spara bil till lager
+		Ta bort bil från lager
+		Visa innehål i lager
+
+[Projekt som ska användas]
+4 fönster (GUI)
+	GUI1: Huvudmeny där man väljer vad man vill göra
+	GUI2: Tilläggsidan där man knappar in värden på en bil man vill lägga in i lagret.
+	GUI3: Uthyrningssidan där man knappar in värden på en bil man vill ta ut ur lagret.
+	GUI4: Listan där man kan se alla bilar i lagret
+
