@@ -26,3 +26,6 @@ Class Repository
 	GUI3: Uthyrningssidan där man knappar in värden på en bil man vill ta ut ur lagret.
 	GUI4: Listan där man kan se alla bilar i lagret
 
+Från alla 3 fönster som poppar upp när man valt ett alternativ ska man kunna göra det man vill göra hur mycket 
+man vill och sedan kunna stänga ner fönstret för att gå till en annan. 
+
